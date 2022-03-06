@@ -11,7 +11,7 @@
 	<groupId>return-order-management</groupId>
 	<artifactId>authorization</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>authorizationserver</name>
 	<description>This microservice is used  Generate JWT to provide authorization to resources</description>
 	<properties>
