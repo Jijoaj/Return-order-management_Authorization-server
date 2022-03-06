@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:sa-east-1:421308774925:task-definition/AuthorizationServer-844379:1"
+        LoadBalancerInfo:
+          ContainerName: "authorizationserver"
+          ContainerPort: "8080"
+        PlatformVersion: "LATEST"
